@@ -211,7 +211,10 @@ class Home extends React.Component {
             if (this.props.location.query) {
                 let { heightT } = this.props.location.query;
                 document.body.style.minHeight = document.documentElement.clientHeight + Math.ceil(heightT) + "px";
-                document.body.scrollTop >= 0 ? document.body.scrollTop = Math.ceil(heightT) : document.documentElement.scrollTop = Math.ceil(heightT);
+                // console.log( document.body.scrollTop) //pc端有document.body.scrollTop值
+                // document.body.scrollTop >= 0 ? document.body.scrollTop = Math.ceil(heightT) : document.documentElement.scrollTop = Math.ceil(heightT);
+                document.body.scrollTop = Math.ceil(heightT);
+                document.documentElement.scrollTop = Math.ceil(heightT);
                 let datalist = localStorage.getItem("data");
                 let date = localStorage.getItem("date");
                 datalist = JSON.parse(datalist);
