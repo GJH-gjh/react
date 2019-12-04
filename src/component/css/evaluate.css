@@ -1,0 +1,102 @@
+.evaluate {
+  background-color: #fff;
+}
+.evaluate .px1 {
+  color: #dddddd;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.evaluate textarea {
+  position: relative;
+  top: 0;
+  right: 0;
+  z-index: -9999;
+  height: 0rem;
+  overflow: hidden;
+  width: 0.1rem;
+}
+.evaluate header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 9;
+}
+.evaluate header p {
+  float: left;
+  width: 100%;
+  text-align: center;
+  height: 1rem;
+  border-bottom: 1px solid #dddddd;
+  font-size: 0.4rem;
+  line-height: 1rem;
+}
+.evaluate header span {
+  margin-left: -100%;
+  float: left;
+  height: 0.6rem;
+  font-size: 0.5rem;
+  width: 0.6rem;
+  line-height: 1rem;
+}
+.evaluate h3 {
+  margin: 0.1rem 0;
+}
+.evaluate ul li {
+  display: flex;
+  min-height: 1.5rem;
+  padding: 0.2rem 0.2rem 0;
+  border-bottom: 1px solid #dddddd;
+  position: relative;
+}
+.evaluate ul li > div {
+  flex: 1;
+  padding: 0 0.2rem;
+}
+.evaluate ul li > div p:nth-child(1) {
+  padding: 0.1rem 0 0;
+  line-height: 1.5em;
+}
+.evaluate ul li > div p:nth-child(2) {
+  margin-bottom: 0.1rem;
+  line-height: 1.5em;
+}
+.evaluate ul li > div div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+}
+.evaluate ul li > div div:nth-child(1) span:nth-child(1) {
+  font-weight: 700;
+}
+.evaluate ul li > div div:nth-child(1) > div {
+  position: absolute;
+  top: 0.4rem;
+  right: 0;
+  height: 1.8rem;
+  width: 2.8rem;
+  background-color: #fff;
+  box-shadow: 0 0 0.1rem #000;
+  display: none;
+}
+.evaluate ul li > div div:nth-child(3) {
+  margin: 0.2rem 0;
+}
+.evaluate ul li > div div:nth-child(3) > span {
+  height: 0.8rem;
+  line-height: 0.8rem;
+  display: block;
+  float: left;
+  color: #dddddd;
+}
+.evaluate ul li > div div:nth-child(3) span:not(:first-child) {
+  float: right;
+}
+.evaluate ul li > div div:nth-child(3) span:nth-child(2) {
+  margin-left: 0.3rem;
+}
+.evaluate ul img {
+  height: 0.6rem;
+  width: 0.6rem;
+  border-radius: 100%;
+}

@@ -1,0 +1,119 @@
+.date {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.2rem;
+    text-align: center;
+    border-right: 1px solid #dddddd;
+    padding: 0 0.1rem;
+
+    span:nth-child(1) {
+        font-size: 0.4rem;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.1rem 0;
+    height: 0.6rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #fff;
+
+}
+
+.title {
+    flex: 1;
+    font-size: 0.5rem;
+    padding: 0 0.1rem;
+    line-height: 0.6rem;
+}
+
+.tou {
+    img {
+        height: 0.6rem;
+        width: 0.6rem;
+        display: block;
+    }
+
+    height: 0.6rem;
+    width: 0.6rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 0.2rem;
+    background-color: black;
+}
+
+.am-wingblank.am-wingblank-lg {
+    margin: 0 !important;
+}
+
+.am-carousel-wrap {
+    display: flex;
+    justify-content: flex-end;
+    width: 98% !important;
+    margin-bottom: 0.2rem;
+}
+
+.titletxt {
+    position: absolute;
+    bottom: 0.6rem;
+    left: 0.1rem;
+    font-size: 0.4rem;
+    color: white;
+    padding: 0 0.3rem;
+}
+
+.author {
+    position: absolute;
+    bottom: 0.3rem;
+    left: 0.1rem;
+    font-size: 0.25rem;
+    color: white;
+    padding: 0 0.3rem;
+}
+
+.home { 
+    fieldset{
+            border-top: 1px solid #e0e0e0;
+            margin: 0 0.25rem;
+            padding: 0;
+            legend{
+                font-size: 0.3rem;
+                color: rgb(158, 157, 157);;
+            }
+    }
+    ul {
+        padding: 0.25rem;
+       
+        li {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.4rem;
+            .right {
+                height: 1.5rem;
+                width: 1.5rem;
+                img {
+                    height: 1.5rem;
+                    width: 1.5rem;
+                    border-radius: 0.1rem;
+                }
+            }
+            .left {
+                padding-right: 0.3rem;
+                h3 {
+                    font-size: 0.3rem;
+                    line-height: 1.5em;
+                    font-weight: 700;
+                }
+                p{
+                    padding: 0.1rem 0;
+                    color: rgb(158, 157, 157);
+                    font-size: 0.24rem;
+                }
+
+            }
+        }
+    }
+}
